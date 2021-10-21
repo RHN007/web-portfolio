@@ -22,18 +22,14 @@ background-repeat: no-repeat;
 background-position: right;
 
 }
-.bottom{
-  background-image: url("images/exp-bg.png");
-  background-repeat: no-repeat;
-  background-position: left;
-}
+
 section{
   height: 600px;
 }
 h1{
 font-size: 50px;
 }
-.name-highlight{
+.orange-highlight{
     color: orange;
 }
 
@@ -49,9 +45,7 @@ font-size: 50px;
 }
 
 
-.exp-h2{
-  color: #FFA87B;
-}
+
 .btn {
     -webkit-border-radius: 28;
     -moz-border-radius: 28;
@@ -77,6 +71,32 @@ font-size: 50px;
     text-decoration: none;
   }
 
+
+  .single-experinence{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 350px;
+    background-color: white;
+   
+  }
+
+  .experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+  #full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+  }
+  #baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+  }
+
   footer{
     text-align: center;
+    font-size: 15px;
   }
